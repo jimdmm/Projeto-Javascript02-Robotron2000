@@ -37,12 +37,29 @@ main {
     position: relative;
 }
 
+.alterar {
+    margin: 2px;
+    padding: 10px;
+    width: 100px;
+    border-color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.botoes {
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+}
+
 .robo {
-    height: 110%;
+    height: 80%;
     z-index: 1;
     position: absolute;
-    left: -20%;
-    top: -5%;
+    left: -10%;
+    bottom: 80px;
 }
 
 .titulo {
